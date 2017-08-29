@@ -1,5 +1,8 @@
 # Matter In Motion. Database schema extension
 
+[![NPM Version](https://img.shields.io/npm/v/mm-db-schema.svg?style=flat-square)](https://www.npmjs.com/package/mm-db-schema)
+[![NPM Downloads](https://img.shields.io/npm/dt/mm-db-schema.svg?style=flat-square)](https://www.npmjs.com/package/mm-db-schema)
+
 Database schema defenition extension for [matter in motion](https://github.com/matter-in-motion/mm) framework
 
 ## Usage

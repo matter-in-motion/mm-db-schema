@@ -1,0 +1,31 @@
+{
+  "name": "mm-db-schema",
+  "version": "1.0.0",
+  "description": "Database schema defenition extension for Matter In Motion",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/matter-in-motion/mm-db-schema.git"
+  },
+  "keywords": [
+    "matter",
+    "in",
+    "motion",
+    "mm",
+    "database",
+    "schema",
+    "extension"
+  ],
+  "author": "Alexey Novikov <v@2dubs.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/matter-in-motion/mm-db-schema/issues"
+  },
+  "dependencies": {
+    "queueue": "^1.0.0"
+  },
+  "homepage": "https://github.com/matter-in-motion/mm-db-schema#readme"
+}

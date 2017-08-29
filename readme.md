@@ -11,12 +11,12 @@ Database schema defenition extension for [matter in motion](https://github.com/m
 
 Define a schema in your resource controller with options:
 
-* __db__ — database name. If you use [mm-db](https://github.com/matter-in-motion/mm-db) extension you can omit this. Default databse will be used.
+* __db__ — database name. If you use [mm-db](https://github.com/matter-in-motion/mm-db) extension you can omit this. Default database will be used.
 * __table__ — table name or an object with table name and table creation options.
-* __indexes__ — array of indexe names or an object with index names and index creation options.
-* __apply__ — function. If you define `apply` function it will be called. `table` and `indexes` options will be ignored. However you still should define them to use in your code.
+* __indexes__ — array of index names or an object with index names and index creation options.
+* __apply__ — function. If you define `apply` function it will be called. `table` and `indexes` options will be ignored. However, you still should still define them to use in your code.
 
-You can define as many table as you want.
+You can define as many tables as you want.
 
 ### Simple example
 
@@ -56,6 +56,7 @@ Controller.prototype.schema = {
     //this will be used as description only
     table: 'table_name',
     indexes: ['index_name1', 'index_name2'],
+    //here is actual schema
     apply: function(dbDriver, schema) {
       //do any stuff nessesary and return a promise
     }

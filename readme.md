@@ -7,7 +7,7 @@ Database schema defenition extension for [matter in motion](https://github.com/m
 
 ## Usage
 
-[Extensions installation intructions](https://github.com/matter-in-motion/mm/blob/master/docs/extensions.md)
+[Extensions installation instructions](https://github.com/matter-in-motion/mm/blob/master/docs/extensions.md)
 
 1. Add this extension
 2. Add schema extension for your database

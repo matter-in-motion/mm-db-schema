@@ -10,7 +10,6 @@ const Schema = function(q, getDBSchema) {
 Schema.prototype.update = function(controllers) {
   controllers.forEach(controller => {
     const schema = controller.schema;
-
     for (let name in schema) {
       const resSchema = schema[name];
       if (resSchema.apply) {
@@ -79,7 +78,7 @@ Schema.prototype.updateTable = function(schema) {
           });
       }
 
-      return this.q.push({
+      this.q.push({
         method: 'updateIndexes',
         args: [ db, table, this.getIndexes(schema.indexes) ]
       });

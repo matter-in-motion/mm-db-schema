@@ -1,6 +1,6 @@
 {
   "name": "mm-db-schema",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "Database schema defenition extension for Matter In Motion",
   "main": "index.js",
   "scripts": {
